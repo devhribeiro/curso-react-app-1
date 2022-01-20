@@ -73,7 +73,7 @@ export class Home extends Component {
         />
         </div>
         
-        {filteredPosts.length == 0 &&
+        {filteredPosts.length === 0 &&
           <p>Não existe posts</p>
         }
 
